@@ -1,4 +1,6 @@
-function JobScheduler(jobs: Job[]): Job[][] {
+import Job from './interfaces/Job';
+
+export default function JobScheduler(jobs: Job[]): Job[][] {
     const timeLimitPerJobGroup = 480; // in minutes
     jobs.map((job) => {
         if(job.tempoEstimado > timeLimitPerJobGroup)

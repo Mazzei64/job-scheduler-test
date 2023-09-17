@@ -4,3 +4,5 @@ interface Job {
     dataMaxima: Date;
     tempoEstimado: number;
 }
+
+export default Job;
