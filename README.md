@@ -6,6 +6,5 @@ npm install --save-dev jest
 ```
 ## To run the tests:
 ```
-npm install --save-dev jest
 npx jest
 ```
